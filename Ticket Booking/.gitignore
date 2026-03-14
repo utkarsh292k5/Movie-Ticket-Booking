@@ -1,0 +1,39 @@
+# Backend (Build artifacts)
+/backend/target/
+/backend/.idea/
+/backend/*.iml
+/backend/.mvn/
+/backend/mvnw
+/backend/mvnw.cmd
+/backend/.settings/
+/backend/.classpath
+/backend/.project
+
+# Frontend (Dependencies & Build)
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/.env.local
+/frontend/.env.production
+/frontend/package-lock.json
+
+# Database (H2 file-based)
+/backend/data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
